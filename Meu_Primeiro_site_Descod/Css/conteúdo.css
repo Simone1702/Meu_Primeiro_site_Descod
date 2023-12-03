@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(39, 38, 38);
+   }
+p, h2{color: white;
+    font-family: 'Lobster Two', sans-serif;
+}
+
+p{
+  font-size: 20px;
+  flex-direction: wrap;
+  line-height: 1.5;
+  text-indent: 2em;
+}
+
+
+.intro {
+  padding-top:1.5em;
+  padding-bottom: 1em;
+  padding-left: 1.5em
+  padding-height: 1.5em;
+  text-aling: center;
+  
+}
+
+.Principal{ justify-content: space-around;
+    box-sizing: border-box;
+    display:flex;
+flex-direction: row;
+padding-left: 4em;
+padding-top: 1.5em;
+gap: 5px;
+}
+
+.um >img{ cursor: pointer;
+    width: 70%;
+    height: 70%;
+}
+.um >h2{ 
+    font-size: 26px;
+    padding: 10px;
+}
+
+.dois >img{ cursor: pointer;
+    width: 80%;
+    height: 70.9%;
+}
+
+.dois h2{ 
+    font-size: 26px;
+    padding: 10px;
+}
+
+.meio{ display: table;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 4em;
+    padding-top: 4em;
+
+}
+
+.tres >img{ cursor: pointer;
+   padding-top: 2em;    
+   float: left;
+    width: 26%;
+    height: 10%;
+}
+.p1{
+    font-size: 2.5em;
+    display: table-cell; 
+    flex-direction: wrap;
+    padding-top: 1.2em;
+    padding-left: 1em;
+    float: top;
+
+}
+
+.tres >h2{
+    font-size: 75px;
+    display: table-cell;
+    float: left;
+    width: 70%;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-left: 2em;
+}
+
+.Fim{box-sizing: border-box;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+.quatro >img{
+    cursor: pointer;
+    width: auto;
+  height: 35%;
+}
+
+.cinco >img{
+    cursor: pointer;
+    width: 38%;
+    height: 36%;
+}
+
+.seis >img{
+cursor: pointer;
+width: 30%;
+height: 33%;
+}
+
+.sete >img{
+    cursor: pointer;
+    width: 23%;
+    height: 75%;
+}
+
+.oito >img{
+    cursor: pointer;
+    width: 23%;
+    height: 65%;
+}
+
+a{text-align: center;
+color: white;
+font-size: 18px;
+padding-top: 300px;
+padding-left: 300px;
+text-decoration: none;
+}
+footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: dashed;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+

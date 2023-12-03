@@ -1,0 +1,56 @@
+*{
+margin: 2;
+padding: 1.9px;
+}
+html{background-color:  rgb(39, 38, 38);
+    background-repeat: no-repeat;
+
+}
+body{background-image: url(../Imagens/form.jpeg);
+font-family: 'Times New Roman', Times, serif;
+font-size: 1em;
+font-style: italic;
+margin-left: 20%;
+margin-top: 1.5%;
+margin-right: 39.8%;
+justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+fieldset{
+border: 0;
+}
+textarea, button, input{
+    border-radius: 5px;
+}
+
+.grupo{margin-bottom: 0.8em;
+}
+.grupo, label,h1 {margin-bottom: 0.2em;
+color: rgba(182, 182, 182, 0.893);
+display: block;}
+
+fieldset.grupo{float:top;}
+.grupo input [type="text"] input[type="email"] button, textarea{
+    padding: 0.2em;
+    border: 1.5px solid black;
+    box-shadow: 3px 3px 3px rgb(255, 255, 255);
+    display: block;
+
+}
+
+button{
+    font-size: 1em;
+border: 5px
+box-shadow 5px 5px 5px 5px rgb(248, 245, 245);
+padding: 0.5em;
+position: absolute;
+top: 79%;
+left: 44%;
+}
+button:hover{background: yellow;
+box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.293);}

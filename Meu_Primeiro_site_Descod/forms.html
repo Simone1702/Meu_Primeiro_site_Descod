@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/forms.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <form>
+        <h1>Nos ajude a melhorar 
+            deixe sua opinião e sugestão!</h1>
+        <fieldset>
+
+            <div class="grupo">
+        <p><strong>O site abordou o conteúdo apresentado de forma didática </strong></p>
+        <input type="radio" name="Sim" value="sim">Sim
+        <input type="radio" name="Não" value="Não">Não
+        <input type="radio" name="Talvez" value="Talvez">Talvez
+        </div>
+        <div class="grupo">
+        <h3>Deixe aqui sugestão de conteúdo!!</h3>
+        <textarea rows="15" style="width: 39em;" id="Deixe aqui sua sugestão" name="sugestão">
+        Aqui você pode deixar melhorias, curiosidades, e nomes que fizeram história na tecnologia.
+        </textarea>
+        </div>
+
+        <div class="grupo">
+        <h2>Se gostou do projeto entre em contato</h2>
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="email" name="e-mail" placeholder="Digite seu e-mail" required>
+        </div>
+        <button type="submit" class="botão">Concluir</button>
+        </fieldset>
+    
+    </form>
+   <script language="javascript">
+       alert("Obrigada por chegar até aqui!!!")
+           </script>
+</body>
+</html>
